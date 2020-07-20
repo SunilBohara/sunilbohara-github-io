@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face{
+    font-family: "Mons";
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face{
+    font-family: "proxima";
+    src: url(../fonts/Montserrat/ProximaNova-Regular.otf);
+}
+
+@media(max-width:700px) {
+    section.sec{
+        flex-direction: column-reverse;
+    }
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10rem;
+}
+
+.container .icon{
+    padding: 0.7rem;
+    padding-left: 15rem;
+    cursor: pointer;
+}
+
+.container .color-names > a {
+    text-decoration: none;
+    color: black;
+    margin: 1.2rem;
+}
+
+.container .color-names{
+    padding-top: 1.8rem;
+    font-family: "mons";
+}
+
+.container .color-names > a:hover{
+    color: red;
+    transition: all 0.20s ease;
+}
+
+section.big-div{
+    background-color:rgb(146, 146, 146);
+    height: 455px;
+    color: white;
+}
+
+section.big-div .big-con{
+    width: 55%;
+    padding-top: 25px;
+    padding-left: 210px;
+}
+
+section.big-div .big-con span{
+    font-size: 4rem;
+    padding-left: 20rem;
+    padding-top: 1rem;
+    position: absolute;
+}
+
+section.big-div .big-con img{
+    position: relative;
+    top: 25px;
+    left: 365px;
+}
+
+section.big-div .big-con h3{
+    font-family: "mons";
+    position: relative;
+    left: 460px;
+    font-size: 3.7rem;
+    bottom: 48px;
+}
+
+section.big-div .paradiv{
+    width: 40%;
+    font-family: "proxima";
+    text-align: center;
+    margin-left: 26rem;
+}
+
+section.big-div .btn{
+    color: white;
+    font-family: "proxima";
+    margin-left: 40rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    line-height: 0.8;
+    background-color: rgb(135, 135, 135);
+    border-radius: 1.5rem;
+    
+}
+
+section.big-div .btn:hover{
+    color:black;
+    transition: all 0.15s ease;
+}
+
+section.sec {
+    display: flex;
+    justify-content: center;
+    font-family: "mons";
+    position: absolute;
+}
+
+section.sec div{
+    margin-right: 40px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "proxima";
+    height: 19.50rem;
+    top: -150px;
+    box-shadow: -0px -2px 5px grey;
+    margin-top: 20px;
+    position: relative;
+}
+
+section.sec div img{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+section.sec div h3{
+}
+
+section.sec div p {
+    font-size: 15px;
+    padding: 20px;
+    padding-top: 6px;
+}
+
+section.sec .blue{
+    width: 21%;
+}
+
+section.sec .green{
+    width: 21%;
+}
+
+section.sec .red{
+    width: 21%;
+    margin-right: -45px;
+}
+
+
+
